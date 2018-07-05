@@ -20,7 +20,15 @@
   direction: ltr;
   -moz-font-feature-settings: 'liga';
   -moz-osx-font-smoothing: grayscale;
-}/*
+}
+
+.bg-py {
+	background: linear-gradient(45deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -moz-linear-gradient(135deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(250,0,58, 0.8) 0%, rgba(125, 46, 185, 0.45) 100%);
+}
+
+/*
 
 .bg-primary {
   background-color: #9c27b0 !important;
